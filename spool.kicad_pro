@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.46,
@@ -179,12 +179,13 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
+        0.12,
         0.15,
         0.2,
         0.254,
         0.508,
-        0.762
+        0.762,
+        1.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,14 +221,6 @@
         {
           "diameter": 0.46,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.6858,
-          "drill": 0.3302
-        },
-        {
-          "diameter": 0.889,
-          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false
@@ -480,8 +473,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "via_diameter": 0.46,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -539,7 +532,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -572,7 +565,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -587,6 +580,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
           "show": false
         }
       ],
