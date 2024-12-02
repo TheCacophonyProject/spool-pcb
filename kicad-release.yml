@@ -1,0 +1,22 @@
+project_name: thermal-camera-v2
+output: production-files
+
+# {{.Version}} will be replaced with the git tag. 
+
+# List of PCBs that will be processed. This will:
+# - Validate the Schematic ERC
+# - Validate the PCB DRC
+# - Make release files (gerber, BOM, placement file)
+pcbs:
+- id: spool
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+
+# List of PCBs that will be built. This will:
+# - Run the panel script.
+# - Validate the PCB DRC
+# - Make release files (gerber, BOM, placement file)
+panels:
+
+
