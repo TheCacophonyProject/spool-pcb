@@ -7,9 +7,11 @@ The magnet 469-1075-ND from digikey is used but using 2455-YB-076-1-ND with a ho
 
 ## TODO
 
-- Add breakout pins for I2C bus.
-- Add ina216 current sensor for motor to detect stalls.
-- Cutouts in the PCB so you can see the horn rotating.
-- Bigger photo interrupters so less likely for horn to bump into them.
-- Add plastic bit on the backside that will interfere with the horn if it is in the wrong place (so it can't be put together incorrectly)
-- Add accelerometer so we can detect when the trap triggers?
+- [x] Add breakout pins for I2C bus.
+- [x] Add ina216 current sensor for motor to detect stalls.
+- [x] Cutouts in the PCB so you can see the horn rotating.
+- [x] Bigger photo interrupters so less likely for horn to bump into them.
+- [x] Add accelerometer so we can detect when the trap triggers?
+- [x] Change current limit resistor to 2A for motor driver. Ω
+- [ ] Add light sensor?
+- [ ] Measure current as it gets reset and then back off and drive forward again. If the trap is reset properly the current draw from the motor should be much less after resetting the trap.

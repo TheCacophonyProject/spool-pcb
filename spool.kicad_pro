@@ -193,9 +193,11 @@
         0.15,
         0.2,
         0.254,
-        0.508,
+        0.5,
         0.762,
-        1.2
+        1.2,
+        3.0,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -622,6 +624,12 @@
           "label": "JLCPCB",
           "name": "JLCPCB",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -629,7 +637,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
