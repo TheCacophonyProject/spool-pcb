@@ -1,0 +1,18 @@
+project_name: spool-pcb
+output: production-files
+
+# {{.Version}} will be replaced with the git tag. 
+
+# List of PCBs that will be processed. This will:
+# - Validate the Schematic ERC
+# - Validate the PCB DRC
+# - Make release files (gerber, BOM, placement file)
+pcbs:
+- id: spool
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+- id: spool-plugs
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
