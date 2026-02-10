@@ -2134,7 +2134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1391e06e-dd8b-46f3-9508-39265f8ef9df")
-		(property "Reference" "D3"
+		(property "Reference" "D202"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -2177,7 +2177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22452"
+		(property "Digikey" "641-SS54-HFCT-ND"
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -2186,7 +2186,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "641-SS54-HFCT-ND"
+		(property "LCSC Part" "C22452"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -2204,7 +2213,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "D3")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -2220,7 +2229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203fb2f4-17d4-41bf-b426-e14ddc75e531")
-		(property "Reference" "D1"
+		(property "Reference" "D201"
 			(at 85.09 35.56 0)
 			(effects
 				(font
@@ -2263,7 +2272,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22452"
+		(property "Digikey" "641-SS54-HFCT-ND"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -2272,7 +2281,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "641-SS54-HFCT-ND"
+		(property "LCSC Part" "C22452"
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -2290,7 +2308,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "D1")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -2306,7 +2324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297d3c8d-7553-4167-9e1c-cecfc08258a8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0207"
 			(at 228.6 68.58 0)
 			(effects
 				(font
@@ -2357,7 +2375,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR04")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3621781c-f2e1-42d9-a301-9a72981f601b")
-		(property "Reference" "J6"
+		(property "Reference" "J204"
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -2425,6 +2443,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62c48306-ee03-439a-a2c1-5f6afa3d8543")
 		)
@@ -2446,7 +2473,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "J6")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f11cb7-980a-4f10-8572-9393cd97b0d8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0206"
 			(at 185.42 63.5 0)
 			(effects
 				(font
@@ -2512,7 +2539,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR07")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534364cd-3a45-4f7b-89fa-075c6d63ca97")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0203"
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -2580,7 +2607,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR02")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -2596,7 +2623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62177ad1-e956-4b83-b14f-8c1392dd4b6d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0204"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -2647,7 +2674,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR03")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -2655,16 +2682,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 100.33 124.46 180)
+		(at 100.33 121.92 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abc6f55b-f9ee-435d-962a-a91d0cdac297")
-		(property "Reference" "J4"
-			(at 100.33 107.95 0)
+		(property "Reference" "J202"
+			(at 100.33 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2699,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 100.33 110.49 0)
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2707,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S08B-XASK-1_1x08_P2.50mm_Horizontal"
-			(at 100.33 124.46 0)
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 124.46 0)
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2725,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 124.46 0)
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2734,25 @@
 			)
 		)
 		(property "Digikey" "641-SS54-HFCT-ND"
-			(at 100.33 124.46 0)
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C495695"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2787,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "J4")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca579ce-497f-4aab-b8e0-67786f9c80c0")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG0201"
 			(at 69.85 57.785 0)
 			(effects
 				(font
@@ -2809,7 +2854,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#FLG03")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a8870f-57bc-4617-8aec-7db8b1f53905")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0208"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -2875,7 +2920,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR01")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b405934f-8820-463d-b88c-385d711c67e1")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0202"
 			(at 138.43 128.905 0)
 			(effects
 				(font
@@ -2941,7 +2986,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#FLG01")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
@@ -2956,7 +3001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf1af6c1-dfdd-4f1b-b1a8-5c57adcf1674")
-		(property "Reference" "D2"
+		(property "Reference" "D203"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -2999,7 +3044,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22452"
+		(property "Digikey" "641-SS54-HFCT-ND"
 			(at 255.27 60.96 0)
 			(effects
 				(font
@@ -3008,7 +3053,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "641-SS54-HFCT-ND"
+		(property "LCSC Part" "C22452"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 255.27 60.96 0)
 			(effects
 				(font
@@ -3026,7 +3080,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "D2")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c42b66da-4367-4efc-a1ca-38fa95d68b94")
-		(property "Reference" "J2"
+		(property "Reference" "J201"
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -3093,6 +3147,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "694fb849-83c8-4d1c-8b05-8bde2efbee1e")
 		)
@@ -3108,7 +3171,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "J2")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -3124,7 +3187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf36dbd-a884-47f9-8c8b-1e9dd3627890")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0201"
 			(at 73.66 62.23 0)
 			(effects
 				(font
@@ -3175,7 +3238,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR06")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -3191,7 +3254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f09fed0f-33e9-4aa3-aa30-2c2ff17336df")
-		(property "Reference" "J5"
+		(property "Reference" "J203"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -3243,6 +3306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ad01dc7-5ea1-4351-bc75-61e160acf413")
 		)
@@ -3264,7 +3336,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "J5")
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -3280,7 +3352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1536998-2881-4f39-8325-4060be7acd04")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0205"
 			(at 152.4 134.62 0)
 			(effects
 				(font
@@ -3330,7 +3402,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR08")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -3346,7 +3418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f74366a4-fa7d-4ad6-9a95-81c58ef121ef")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0202"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -3396,7 +3468,7 @@
 		(instances
 			(project "trap-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "#PWR05")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
