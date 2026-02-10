@@ -11337,7 +11337,7 @@
 		)
 		(uuid "674c849d-ad2b-481b-ab52-015e50bf2258")
 	)
-	(text "Magnet rotarty \nposition sensor"
+	(text "Magnet rotary \nposition sensor"
 		(exclude_from_sim no)
 		(at 129.54 19.558 0)
 		(effects
