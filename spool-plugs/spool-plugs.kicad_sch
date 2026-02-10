@@ -2195,15 +2195,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 175.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d2317e27-8b1a-4d4b-a018-b0d7f0dd6cb6")
 		)
@@ -2282,15 +2273,6 @@
 			)
 		)
 		(property "LCSC Part" "C22452"
-			(at 85.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -3054,15 +3036,6 @@
 			)
 		)
 		(property "LCSC Part" "C22452"
-			(at 255.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 255.27 60.96 0)
 			(effects
 				(font
