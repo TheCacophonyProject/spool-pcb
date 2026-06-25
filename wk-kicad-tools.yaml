@@ -12,7 +12,11 @@ pcbs:
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 - id: spool-plugs
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}

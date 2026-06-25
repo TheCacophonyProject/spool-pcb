@@ -569,7 +569,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -678,6 +678,12 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
           "show": false
         }
       ],
@@ -737,7 +743,7 @@
         "uuid": "f4d932b8-59e6-4f87-b93a-22f2c65d5538"
       }
     ],
-    "used_designators": "H11-13,TP2",
+    "used_designators": "J1901,C39,C121,#PWR90-91,#PWR142,#PWR148,#PWR1908,#PWR1911-1912,U4,U106,H11-13,R115,TP2",
     "variants": []
   },
   "sheets": [
