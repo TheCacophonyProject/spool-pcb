@@ -22326,7 +22326,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_12"
+	(global_label "GPIO_23"
 		(shape input)
 		(at 523.24 125.73 0)
 		(fields_autoplaced yes)

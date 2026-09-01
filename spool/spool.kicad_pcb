@@ -38303,7 +38303,7 @@
 		(layer "User.2")
 		(uuid "35c6647e-a6ff-4836-a89c-cf8c6dda9d27")
 	)
-	(gr_text "GPIO12"
+	(gr_text "GPIO23"
 		(at -34.47 2.03 0)
 		(layer "F.SilkS")
 		(uuid "2e518a1e-aeb1-4a22-97d7-ae2b6f2e4e26")
@@ -38346,6 +38346,19 @@
 		(at 13.61 -33.45 0)
 		(layer "F.SilkS")
 		(uuid "5d712ebe-73f5-468f-b58f-639621aa7620")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Home"
+		(at 16.99 0.32 0)
+		(layer "F.SilkS")
+		(uuid "abd52c5b-8799-4bac-816f-8d5553e520c9")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -38541,6 +38554,19 @@
 		(at -15.785 -0.845 270)
 		(layer "F.SilkS")
 		(uuid "09225053-90ec-4387-b33d-e53fd4238861")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Reset"
+		(at 15.75 5.95 340)
+		(layer "F.SilkS")
+		(uuid "a424960b-a632-45b1-873a-071f18e049e1")
 		(effects
 			(font
 				(size 0.8128 0.8128)
