@@ -549,7 +549,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/spool-plugs.step",
       "svg": "",
       "vrml": ""
     },
@@ -699,7 +699,7 @@
         "uuid": "2aa3d595-b075-467f-ac50-47a0458f5456"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H201-203,D204,R201-203,#PWR209-220,J202,J205-209",
     "variants": []
   },
   "sheets": [
