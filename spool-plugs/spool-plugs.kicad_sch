@@ -4092,7 +4092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4350,7 +4350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eed5436-01c9-4c3a-ac18-4489f78bc3bb")
-		(property "Reference" "R33"
+		(property "Reference" "R301"
 			(at 113.03 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4403,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C149504"
 			(at 113.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "spool-plugs"
 				(path "/2aa3d595-b075-467f-ac50-47a0458f5456"
-					(reference "R33")
+					(reference "R301")
 					(unit 1)
 				)
 			)

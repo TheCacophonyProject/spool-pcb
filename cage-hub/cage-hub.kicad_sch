@@ -3418,7 +3418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052cb537-a0ae-47f1-b06f-670efb39bd20")
-		(property "Reference" "H202"
+		(property "Reference" "H503"
 			(at 144.78 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,10 +3473,54 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "H202")
+					(reference "H503")
 					(unit 1)
 				)
 			)
@@ -3494,7 +3538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "108aa6c0-a7f6-4501-b54e-f56e13814ef6")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0501"
 			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3555,7 +3599,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR0218")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1136ce25-f1b6-4287-a167-f35122239a00")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0504"
 			(at 219.71 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3634,7 +3678,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR04")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3652,7 +3696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18a50210-10b5-452b-aa1f-921d92bcc36f")
-		(property "Reference" "J2"
+		(property "Reference" "J503"
 			(at 205.486 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3749,51 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C491707"
+		(property "LCSC Part" "C264992"
+			(at 213.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 213.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 213.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3728,7 +3816,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J2")
+					(reference "J503")
 					(unit 1)
 				)
 			)
@@ -3740,13 +3828,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261384b3-3bf8-476e-acd7-4b37fd02b005")
-		(property "Reference" "C1"
+		(property "Reference" "C501"
 			(at 95.25 82.9309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,6 +3889,50 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f81808f3-3a9b-4664-a9ec-12b1b09bcbd0")
 		)
@@ -3810,7 +3942,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "C1")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -3828,7 +3960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27332113-1e35-4d23-b08e-4c780678c0e2")
-		(property "Reference" "J5"
+		(property "Reference" "J506"
 			(at 259.08 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,6 +4013,61 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 259.08 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 259.08 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 259.08 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C265077"
+			(at 259.08 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "346f4cd0-16e5-4ce7-92b3-1a10a93bd1ed")
 		)
@@ -3890,7 +4077,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J5")
+					(reference "J506")
 					(unit 1)
 				)
 			)
@@ -3908,7 +4095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0ca0e6-e0d8-45c7-8257-45de52451170")
-		(property "Reference" "H404"
+		(property "Reference" "H502"
 			(at 144.78 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,10 +4150,54 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "H404")
+					(reference "H502")
 					(unit 1)
 				)
 			)
@@ -3984,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64a91a27-9100-40a8-9be5-8346786ea18a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0506"
 			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4045,7 +4276,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR03")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -4063,7 +4294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "674861f7-67a8-4e7d-89b7-34c3f92b16c3")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0502"
 			(at 91.44 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4124,7 +4355,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR0219")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bac7c1-23f1-401b-b2a0-335203cb012b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0508"
 			(at 265.43 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4434,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR06")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4221,7 +4452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a5b6d54-1fbc-41d7-a950-de85b2cf2b23")
-		(property "Reference" "H403"
+		(property "Reference" "H501"
 			(at 144.78 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,10 +4507,54 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "H403")
+					(reference "H501")
 					(unit 1)
 				)
 			)
@@ -4297,7 +4572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d135fd-6ffd-4eff-93d6-e0c3889e6ea4")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0503"
 			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4358,7 +4633,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR0220")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f7aa94-4acc-474f-aa66-d4a918b49de5")
-		(property "Reference" "H203"
+		(property "Reference" "H504"
 			(at 144.78 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,10 +4706,54 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "H203")
+					(reference "H504")
 					(unit 1)
 				)
 			)
@@ -4452,7 +4771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40fe345-b9a2-49dc-967f-2c7da198e213")
-		(property "Reference" "J1"
+		(property "Reference" "J505"
 			(at 259.08 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,6 +4824,61 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C265077"
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05bf0e03-b7a1-4925-86f5-03e6975883f1")
 		)
@@ -4514,7 +4888,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J1")
+					(reference "J505")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b460b43f-a3d6-4f15-9c67-c392fce327c4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0507"
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4967,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR05")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8a6799d-6fcd-4499-93ce-61f79bc58f97")
-		(property "Reference" "J3"
+		(property "Reference" "J504"
 			(at 205.486 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +5038,51 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C491707"
+		(property "LCSC Part" "C264992"
+			(at 213.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 213.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 213.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4687,7 +5105,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J3")
+					(reference "J504")
 					(unit 1)
 				)
 			)
@@ -4705,7 +5123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c271e5ea-3e14-4fb8-981a-39d353ffda52")
-		(property "Reference" "J4"
+		(property "Reference" "J502"
 			(at 205.486 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +5176,51 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C491707"
+		(property "LCSC Part" "C264992"
+			(at 213.36 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 213.36 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 213.36 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4781,7 +5243,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J4")
+					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -4799,7 +5261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ab8724-0389-4c37-a746-9dc3dfbf8911")
-		(property "Reference" "U1"
+		(property "Reference" "U501"
 			(at 80.01 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,10 +5315,54 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 76.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "U1")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -4874,7 +5380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8250061-d2ba-404e-a412-d1e7b3dc0271")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0505"
 			(at 219.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4935,7 +5441,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#PWR02")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -4947,13 +5453,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce116817-56de-402d-87eb-1d0ec599f773")
-		(property "Reference" "J205"
+		(property "Reference" "J501"
 			(at 80.01 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,6 +5512,50 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4faf944a-a711-4385-bed9-31b0916581bc")
 		)
@@ -5033,7 +5583,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "J205")
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -5051,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6680b1d-b15d-4277-90fa-aca925ce575e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0501"
 			(at 167.64 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5661,7 @@
 		(instances
 			(project "cage-hub"
 				(path "/f736ce9c-4637-44a5-b444-9a4835cb3749"
-					(reference "#FLG01")
+					(reference "#FLG0501")
 					(unit 1)
 				)
 			)
