@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.4,
+          "height": 2.5,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.3,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -179,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -201,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -490,6 +493,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -537,8 +541,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -549,7 +553,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/spool-plugs.step",
       "svg": "",
       "vrml": ""
     },
@@ -699,7 +703,7 @@
         "uuid": "2aa3d595-b075-467f-ac50-47a0458f5456"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG202,#PWR209-220,D203-204,H201-203,J202,J205-209,R33,R201-203",
     "variants": []
   },
   "sheets": [

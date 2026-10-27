@@ -1110,6 +1110,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1584,6 +1585,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4840,6 +4842,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5644,6 +5647,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6192,22 +6196,10 @@
 		(layer "F.Fab")
 		(uuid "4d8e7c98-1dd1-40b3-aacd-787dc077c405")
 	)
-	(gr_text "${TAG}"
-		(at -28.7 10 0)
+	(gr_text "${TAG}\n${HASH}"
+		(at -28.7 11.53 0)
 		(layer "F.SilkS")
 		(uuid "2cd4f717-2e3f-4fba-816b-a1bc688eb443")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "${HASH}"
-		(at -28.7 12.5 0)
-		(layer "F.SilkS")
-		(uuid "6efb929c-2bdc-408d-9d80-57bd3d21cc89")
 		(effects
 			(font
 				(size 1 1)

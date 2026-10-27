@@ -20,3 +20,15 @@ pcbs:
       val: {{.Version}}
     - key: HASH
       val: {{.GIT_HASH}}
+- id: cage-hub
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
+- id: pir
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
