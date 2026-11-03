@@ -3943,7 +3943,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
-		(at 133.35 170.18 0)
+		(at 135.89 170.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3951,7 +3952,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39a27182-f2b1-4cc2-b9f8-bce28258bf9b")
 		(property "Reference" "J209"
 			(at 134.62 153.67 0)
@@ -3974,7 +3974,7 @@
 			)
 		)
 		(property "Footprint" "cacophony-library:spool_pcb-pcb_connector"
-			(at 133.35 170.18 0)
+			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +3985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 170.18 0)
+			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 170.18 0)
+			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4007,7 @@
 			)
 		)
 		(property "LCSC Part" "C5383093"
-			(at 133.35 170.18 0)
+			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
